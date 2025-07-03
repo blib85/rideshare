@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
 
         val myWebView : WebView = findViewById(R.id.webview_id)
         myWebView.apply{
-            loadUrl("https://www.uber.com")
+            loadUrl("https://m.uber.com")
             settings.javaScriptEnabled = true
             webViewClient = (WebViewClient())
         }
